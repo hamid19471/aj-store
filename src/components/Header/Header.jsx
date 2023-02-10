@@ -5,9 +5,9 @@ import { CiShoppingBasket } from "react-icons/ci";
 const Header = () => {
     return (
         <div>
-            <header className="flex container items-center justify-between mt-8">
+            <header className="flex container items-center justify-between mt-8 border border-b-gray-300 pb-10">
                 <div className="flex items-end gap-1">
-                    <h1 className="text-3xl font-bold font-oswald">AJ</h1>
+                    <h1 className="text-5xl font-bold font-oswald">AJ</h1>
                     <span className="font-light font-oswald">Store.</span>
                 </div>
                 <div className="flex list-none gap-10">
@@ -23,7 +23,7 @@ const Header = () => {
                 </div>
                 <div className="relative cursor-pointer">
                     <CiShoppingBasket className="text-3xl" />
-                    <span className="absolute -top-2 right-0 left-5 bottom-0 flex items-center justify-center w-2 h-2 bg-violet-500 text-ms p-3 rounded-full text-white">
+                    <span className="absolute -top-2 right-0 left-5 bottom-0 flex items-center justify-center w-2 h-2 bg-violet-500 text-sm p-3 rounded-full text-white">
                         0
                     </span>
                 </div>

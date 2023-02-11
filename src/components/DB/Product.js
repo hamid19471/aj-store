@@ -24,7 +24,7 @@ const Product = [
         quantity: 1,
         default: 1,
         category: ["lighting", "decorative"],
-        image: Decorative,
+        image: Lighting,
     },
     {
         id: 3,

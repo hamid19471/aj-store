@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div>
             <footer className="container flex flex-col md:flex-row items-top justify-between gap-5 border border-t-gray-300 pt-10 w-full mt-10">
-                <div className="flex flex-col gap-2 md:w-1/3">
+                <div className="flex flex-col gap-2 md:w-1/3 ">
                     <div className="flex items-end">
                         <h1 className="text-5xl font-bold font-oswald">AJ</h1>
                         <span className="font-light font-oswald">Store.</span>
@@ -20,7 +20,7 @@ const Footer = () => {
                         Quisquam, quod.
                     </p>
                 </div>
-                <div>
+                <div className="flex flex-col w-1/3">
                     <h1 className="text-xl font-bold font-oswald border border-b-slate-700 border-b-2 pb-2">
                         useful links
                     </h1>
@@ -36,7 +36,7 @@ const Footer = () => {
                         })}
                     </ul>
                 </div>
-                <div className="flex flex-col ">
+                <div className="flex flex-col w-1/3">
                     <h1 className="text-xl font-bold font-oswald border border-b-slate-700 border-b-2 pb-2">
                         contact us
                     </h1>

@@ -13,4 +13,7 @@ body {
         @apply px-4;
         @apply max-w-7xl;
     }
+    .btn {
+        @apply text-lg font-light py-1 px-3 bg-violet-700 text-white rounded-lg border hover:bg-transparent hover:border-violet-700 hover:text-violet-700 transition duration-200;
+    }
 }

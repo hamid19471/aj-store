@@ -5,7 +5,7 @@ import { BsTelephone } from "react-icons/bs";
 const Footer = () => {
     return (
         <div>
-            <footer className="container flex flex-col md:flex-row items-top justify-between gap-5 border border-t-gray-300 pt-10 w-full mt-10">
+            <footer className="container flex flex-col md:flex-row items-top justify-between gap-5 border border-t-gray-300 pt-10 w-full mt-10 mb-12">
                 <div className="flex flex-col gap-2 md:w-1/3 ">
                     <div className="flex items-end">
                         <h1 className="text-5xl font-bold font-oswald">AJ</h1>
@@ -52,6 +52,11 @@ const Footer = () => {
                     </ul>
                 </div>
             </footer>
+            <div className="flex items-center justify-start py-3 bg-slate-700 text-white">
+                <h1 className="container text-left text-xl font-light font-oswald ">
+                    All rights reserved by AJ Store.
+                </h1>
+            </div>
         </div>
     );
 };

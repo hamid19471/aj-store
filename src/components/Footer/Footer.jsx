@@ -20,7 +20,7 @@ const Footer = () => {
                         Quisquam, quod.
                     </p>
                 </div>
-                <div className="flex flex-col w-1/3">
+                <div className="flex flex-col">
                     <h1 className="text-xl font-bold font-oswald border border-b-slate-700 border-b-2 pb-2">
                         useful links
                     </h1>
@@ -36,7 +36,7 @@ const Footer = () => {
                         })}
                     </ul>
                 </div>
-                <div className="flex flex-col w-1/3">
+                <div className="flex flex-col">
                     <h1 className="text-xl font-bold font-oswald border border-b-slate-700 border-b-2 pb-2">
                         contact us
                     </h1>

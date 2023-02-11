@@ -23,8 +23,10 @@ const CategorySection = () => {
                             />
                             <h2 className="flex w-full text-xl font-oswald font-bold p-3 bg-slate-300 border rounded-b-lg z-10 absolute bottom-0 justify-between items-center">
                                 {category.name}
-                                <span className="text-lg font-light py-1 px-3 bg-violet-700 text-white rounded-lg border hover:bg-transparent hover:border-violet-700 hover:text-violet-700 transition duration-200">
-                                    <button>View Products</button>
+                                <span>
+                                    <button className="btn">
+                                        View Products
+                                    </button>
                                 </span>
                             </h2>
                         </div>
